@@ -1,0 +1,19 @@
+site_name: Cybersecurity Merit Badge
+site_description: Scouting America Cybersecurity Merit Badge - 2.5 hour class
+theme:
+  name: material
+  features:
+    - navigation.tabs
+    - content.code.annotate
+plugins:
+  - search
+  - revealjs
+nav:
+  - Home: index.md
+  - Slides: slides.md
+  - Handouts:
+      - "Password & MFA Activity": handouts/passwords-mfa-handout.md
+      - "Phishing & Public Wi-Fi Activity": handouts/phishing-wifi-handout.md
+      - "Cryptography Cipher Activity": handouts/crypto-cipher-handout.md
+      - "IoT & Home Network Checklist": handouts/iot-home-network-handout.md
+      - "Requirement Checklist": handouts/requirement-checklist.md
