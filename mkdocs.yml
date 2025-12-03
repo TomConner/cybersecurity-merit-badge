@@ -1,5 +1,7 @@
 site_name: Cybersecurity Merit Badge
 site_description: Scouting America Cybersecurity Merit Badge - 2.5 hour class
+repo_url: https://github.com/TomConner/cybersecurity-merit-badge
+repo_name: TomConner/cybersecurity-merit-badge
 theme:
   name: material
   features:
