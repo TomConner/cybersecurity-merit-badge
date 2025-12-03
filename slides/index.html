@@ -1,0 +1,1574 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+        <meta name="description" content="Scouting America Cybersecurity Merit Badge - 2.5 hour class">
+      
+      
+      
+      
+        <link rel="prev" href="..">
+      
+      
+        <link rel="next" href="../handouts/passwords-mfa-handout/">
+      
+      
+        
+      
+      
+      <link rel="icon" href="../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.0">
+    
+    
+      
+        <title>Slides - Cybersecurity Merit Badge</title>
+      
+    
+    
+      <link rel="stylesheet" href="../assets/stylesheets/main.618322db.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+  </head>
+  
+  
+    <body dir="ltr">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#cybersecurity-merit-badge" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+<header class="md-header" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href=".." title="Cybersecurity Merit Badge" class="md-header__button md-logo" aria-label="Cybersecurity Merit Badge" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Cybersecurity Merit Badge
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Slides
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+            
+<nav class="md-tabs" aria-label="Tabs" data-md-component="tabs">
+  <div class="md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href=".." class="md-tabs__link">
+        
+  
+  
+    
+  
+  Home
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+    
+  
+  
+    <li class="md-tabs__item md-tabs__item--active">
+      <a href="./" class="md-tabs__link">
+        
+  
+  
+    
+  
+  Slides
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../handouts/passwords-mfa-handout/" class="md-tabs__link">
+          
+  
+  
+  Handouts
+
+        </a>
+      </li>
+    
+  
+
+      
+    </ul>
+  </div>
+</nav>
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+  
+
+
+<nav class="md-nav md-nav--primary md-nav--lifted" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href=".." title="Cybersecurity Merit Badge" class="md-nav__button md-logo" aria-label="Cybersecurity Merit Badge" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    Cybersecurity Merit Badge
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href=".." class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Home
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Slides
+  
+
+    
+  </span>
+  
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Slides
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#agenda" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Agenda
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#1-digital-safety-material-cellphone-lock" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1. Digital Safety :material-cellphone-lock:
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#protecting-your-digital-footprint-material-incognito" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Protecting Your Digital Footprint :material-incognito:
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#physical-safety-with-devices-material-human-male-height-variant" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Physical Safety with Devices :material-human-male-height-variant:
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2-ethics-online-material-scale-balance" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2. Ethics Online :material-scale-balance:
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#ethical-vs-unethical-behavior-material-gavel" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Ethical vs. Unethical Behavior :material-gavel:
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#3-cyber-fundamentals-material-laptop" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        3. Cyber Fundamentals :material-laptop:
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="3. Cyber Fundamentals :material-laptop:">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#systems-that-need-protecting" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Systems That Need Protecting
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#cia-triad-material-triangle-outline" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        CIA Triad :material-triangle-outline:
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#4-threats-vulnerabilities-attacks-material-alert-octagon" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        4. Threats, Vulnerabilities, Attacks :material-alert-octagon:
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#malware-material-bug" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Malware :material-bug:
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#public-wi-fi-risks-material-wifi-alert" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Public Wi-Fi Risks :material-wifi-alert:
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#spoofing-phishing-material-fish" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Spoofing &amp; Phishing :material-fish:
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#current-events-material-newspaper-variant" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Current Events :material-newspaper-variant:
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#your-attack-surface-material-radar" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Your Attack Surface :material-radar:
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#5-cyber-defenses-material-shield-check" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        5. Cyber Defenses :material-shield-check:
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#why-updates-matter-material-update" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Why Updates Matter :material-update:
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#system-security-tasks-material-clipboard-check-outline" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        System Security Tasks :material-clipboard-check-outline:
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#6-cryptography-material-lock" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        6. Cryptography :material-lock:
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#is-this-website-encrypted-material-web-lock" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Is This Website Encrypted? :material-web-lock:
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#cryptography-activity-choices-material-lightbulb-on-outline" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Cryptography Activity Choices :material-lightbulb-on-outline:
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#7-iot-connected-devices-material-router-wireless" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        7. IoT &amp; Connected Devices :material-router-wireless:
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#8-activities-competitions-material-gamepad-variant" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        8. Activities &amp; Competitions :material-gamepad-variant:
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#9-cybersecurity-careers-material-briefcase-account" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        9. Cybersecurity Careers :material-briefcase-account:
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#closing-material-handshake-outline" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Closing :material-handshake-outline:
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Handouts
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Handouts
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../handouts/passwords-mfa-handout/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Password & MFA Activity
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../handouts/phishing-wifi-handout/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Phishing & Public Wi-Fi Activity
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../handouts/crypto-cipher-handout/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Cryptography Cipher Activity
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../handouts/iot-home-network-handout/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    IoT & Home Network Checklist
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../handouts/requirement-checklist/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Requirement Checklist
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#agenda" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Agenda
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#1-digital-safety-material-cellphone-lock" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1. Digital Safety :material-cellphone-lock:
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#protecting-your-digital-footprint-material-incognito" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Protecting Your Digital Footprint :material-incognito:
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#physical-safety-with-devices-material-human-male-height-variant" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Physical Safety with Devices :material-human-male-height-variant:
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2-ethics-online-material-scale-balance" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2. Ethics Online :material-scale-balance:
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#ethical-vs-unethical-behavior-material-gavel" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Ethical vs. Unethical Behavior :material-gavel:
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#3-cyber-fundamentals-material-laptop" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        3. Cyber Fundamentals :material-laptop:
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="3. Cyber Fundamentals :material-laptop:">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#systems-that-need-protecting" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Systems That Need Protecting
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#cia-triad-material-triangle-outline" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        CIA Triad :material-triangle-outline:
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#4-threats-vulnerabilities-attacks-material-alert-octagon" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        4. Threats, Vulnerabilities, Attacks :material-alert-octagon:
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#malware-material-bug" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Malware :material-bug:
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#public-wi-fi-risks-material-wifi-alert" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Public Wi-Fi Risks :material-wifi-alert:
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#spoofing-phishing-material-fish" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Spoofing &amp; Phishing :material-fish:
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#current-events-material-newspaper-variant" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Current Events :material-newspaper-variant:
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#your-attack-surface-material-radar" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Your Attack Surface :material-radar:
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#5-cyber-defenses-material-shield-check" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        5. Cyber Defenses :material-shield-check:
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#why-updates-matter-material-update" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Why Updates Matter :material-update:
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#system-security-tasks-material-clipboard-check-outline" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        System Security Tasks :material-clipboard-check-outline:
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#6-cryptography-material-lock" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        6. Cryptography :material-lock:
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#is-this-website-encrypted-material-web-lock" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Is This Website Encrypted? :material-web-lock:
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#cryptography-activity-choices-material-lightbulb-on-outline" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Cryptography Activity Choices :material-lightbulb-on-outline:
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#7-iot-connected-devices-material-router-wireless" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        7. IoT &amp; Connected Devices :material-router-wireless:
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#8-activities-competitions-material-gamepad-variant" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        8. Activities &amp; Competitions :material-gamepad-variant:
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#9-cybersecurity-careers-material-briefcase-account" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        9. Cybersecurity Careers :material-briefcase-account:
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#closing-material-handshake-outline" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Closing :material-handshake-outline:
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+
+<h1 id="cybersecurity-merit-badge">Cybersecurity Merit Badge</h1>
+<p>:material-shield-lock: :material-account-group:</p>
+<p>Scouting America</p>
+<p>Presenter: <code>__________________</code><br />
+Date: <code>__________________</code>  </p>
+<blockquote>
+<p><strong>Speaker notes (counselor):</strong> Introduce yourself, your background, and how cybersecurity shows up in daily life (phones, games, school). Set expectations for a respectful, interactive session.<br />
+Links: https://www.scouting.org • https://www.cisa.gov/cybersecurity</p>
+</blockquote>
+<hr />
+<h2 id="agenda">Agenda</h2>
+<ol>
+<li>Safety  </li>
+<li>Ethics  </li>
+<li>Fundamentals  </li>
+<li>Threats &amp; Attacks  </li>
+<li>Cyber Defenses  </li>
+<li>Cryptography  </li>
+<li>Internet of Things (IoT)  </li>
+<li>Activities &amp; Competitions  </li>
+<li>Careers &amp; Next Steps  </li>
+</ol>
+<blockquote>
+<p><strong>Speaker notes (counselor):</strong> Explain that this is a high-level tour. Activities and requirements will be spread across today and follow-up work. Keep pace brisk but pause often for questions.</p>
+</blockquote>
+<hr />
+<h2 id="1-digital-safety-material-cellphone-lock">1. Digital Safety :material-cellphone-lock:</h2>
+<p><strong>Key ideas</strong></p>
+<ul>
+<li>Your <strong>digital footprint</strong> lasts a long time.  </li>
+<li>Privacy settings control <strong>who sees what</strong>.  </li>
+<li>Physical safety matters when using tech.</li>
+</ul>
+<blockquote>
+<p><strong>Speaker notes (counselor):</strong> Ask: “What’s something online you posted and later deleted?” Use it to show that deletion doesn’t always mean it is gone.<br />
+Links: https://www.fosi.org • https://www.commonsensemedia.org</p>
+</blockquote>
+<hr />
+<h2 id="protecting-your-digital-footprint-material-incognito">Protecting Your Digital Footprint :material-incognito:</h2>
+<p><strong>Do:</strong></p>
+<ul>
+<li>Lock down <strong>social media</strong> profiles.  </li>
+<li>Turn off unnecessary <strong>location sharing</strong>.  </li>
+<li>Review <strong>app permissions</strong> regularly.  </li>
+<li>Avoid posting: home address, school schedule, daily routine.</li>
+</ul>
+<blockquote>
+<p><strong>Speaker notes (counselor):</strong> Quick demo of privacy settings on a test account if possible. Emphasize “share with friends, not with the whole world.”<br />
+Link: https://staysafeonline.org</p>
+</blockquote>
+<hr />
+<h2 id="physical-safety-with-devices-material-human-male-height-variant">Physical Safety with Devices :material-human-male-height-variant:</h2>
+<ul>
+<li>Sit with <strong>good posture</strong>; screen at eye level.  </li>
+<li>Take <strong>screen breaks</strong> (e.g., 20–20–20 rule).  </li>
+<li>Avoid “text neck” and strain injuries.  </li>
+<li>Do <strong>not</strong> walk, bike, or drive while looking at screens.</li>
+</ul>
+<blockquote>
+<p><strong>Speaker notes (counselor):</strong> Lead a 30-second stretch break. Ask who has felt eye strain or sore neck from gaming or scrolling.<br />
+Links: Search “Mayo Clinic computer ergonomics”; https://www.aao.org/eye-health</p>
+</blockquote>
+<hr />
+<h2 id="2-ethics-online-material-scale-balance">2. Ethics Online :material-scale-balance:</h2>
+<p><strong>Scout Law in Cyberspace</strong></p>
+<ul>
+<li><strong>Trustworthy</strong> – Don’t lie, cheat, or impersonate others online.  </li>
+<li><strong>Helpful</strong> – Report cyberbullying or scams.  </li>
+<li><strong>Kind</strong> – No harassment or pile-ons on social media.  </li>
+</ul>
+<blockquote>
+<p><strong>Speaker notes (counselor):</strong> Ask Scouts to pick a Scout Law point and give one “online” example. Write a few on a board.<br />
+Link: https://www.scouting.org/about/faq/question10</p>
+</blockquote>
+<hr />
+<h2 id="ethical-vs-unethical-behavior-material-gavel">Ethical vs. Unethical Behavior :material-gavel:</h2>
+<p><strong>Ethical:</strong></p>
+<ul>
+<li>Reporting a vulnerability instead of abusing it.  </li>
+<li>Respecting others’ privacy and data.  </li>
+</ul>
+<p><strong>Unethical:</strong></p>
+<ul>
+<li>Using someone’s unlocked phone or computer.  </li>
+<li>Shoulder-surfing passwords.  </li>
+<li>“Just looking around” in systems you’re not authorized to use.</li>
+</ul>
+<blockquote>
+<p><strong>Speaker notes (counselor):</strong> Present 2–3 scenarios and have Scouts vote thumbs-up/ thumbs-down on whether it’s ethical.<br />
+Link: https://www.comptia.org/blog/ethical-issues-in-cybersecurity</p>
+</blockquote>
+<hr />
+<h2 id="3-cyber-fundamentals-material-laptop">3. Cyber Fundamentals :material-laptop:</h2>
+<h3 id="systems-that-need-protecting">Systems That Need Protecting</h3>
+<ul>
+<li><strong>Personal devices</strong> (phones, laptops, tablets).  </li>
+<li><strong>Online accounts</strong> (email, gaming, school portals).  </li>
+<li><strong>Critical infrastructure</strong> (power, water, hospitals).  </li>
+</ul>
+<blockquote>
+<p><strong>Speaker notes (counselor):</strong> Relate to their world: school Chromebooks, game accounts, photo backups, family Wi-Fi router.<br />
+Links: https://www.cisa.gov/topics/cyber-threats • https://www.futureoftech.org/cybersecurity</p>
+</blockquote>
+<hr />
+<h2 id="cia-triad-material-triangle-outline">CIA Triad :material-triangle-outline:</h2>
+<ul>
+<li><strong>Confidentiality</strong> – Only the right people can see the data.  </li>
+<li><strong>Integrity</strong> – The data is correct and unaltered.  </li>
+<li><strong>Availability</strong> – The data and systems are there when needed.  </li>
+</ul>
+<blockquote>
+<p><strong>Speaker notes (counselor):</strong> Use simple examples:<br />
+- Confidentiality: private messages.<br />
+- Integrity: grades not being changed.<br />
+- Availability: game servers not going down.<br />
+Link: https://www.ibm.com/topics/cia-triad</p>
+</blockquote>
+<hr />
+<h2 id="4-threats-vulnerabilities-attacks-material-alert-octagon">4. Threats, Vulnerabilities, Attacks :material-alert-octagon:</h2>
+<p><strong>Key terms</strong></p>
+<ul>
+<li><strong>Vulnerability</strong> – a weakness or flaw.  </li>
+<li><strong>Threat</strong> – something that can exploit the weakness.  </li>
+<li><strong>Exploit</strong> – the actual method of attack.</li>
+</ul>
+<p>Example: Outdated browser (vulnerability) + malicious site (threat) + exploit code = stolen password.</p>
+<blockquote>
+<p><strong>Speaker notes (counselor):</strong> Ask them to describe a real-world analogy (e.g., broken lock, burglar, crowbar).<br />
+Link: https://www.khanacademy.org/computing/computer-science</p>
+</blockquote>
+<hr />
+<h2 id="malware-material-bug">Malware :material-bug:</h2>
+<p>Examples:</p>
+<ul>
+<li><strong>Virus</strong> – attaches to files, spreads when run.  </li>
+<li><strong>Worm</strong> – spreads automatically across networks.  </li>
+<li><strong>Trojan</strong> – looks useful, hides bad code.  </li>
+<li><strong>Ransomware</strong> – locks files until a ransom is paid.</li>
+</ul>
+<blockquote>
+<p><strong>Speaker notes (counselor):</strong> Pick <strong>one</strong> type of malware and explain briefly. Optional: show a news article about a recent ransomware case.<br />
+Link: https://www.cisa.gov/stopransomware</p>
+</blockquote>
+<hr />
+<h2 id="public-wi-fi-risks-material-wifi-alert">Public Wi-Fi Risks :material-wifi-alert:</h2>
+<p>Risks:</p>
+<ul>
+<li>Fake hotspots pretending to be real.  </li>
+<li>Attackers intercepting traffic (“man in the middle”).  </li>
+<li>Session hijacking (stealing logins).  </li>
+</ul>
+<p>Reduce risk:</p>
+<ul>
+<li>Use <strong>VPN</strong> if possible.  </li>
+<li>Use only <strong>HTTPS</strong> websites.  </li>
+<li>Avoid logging into sensitive accounts.</li>
+</ul>
+<blockquote>
+<p><strong>Speaker notes (counselor):</strong> Ask: “Who has used free Wi-Fi at a café or airport?” Explain a simple attack scenario.<br />
+Link: https://consumer.ftc.gov/articles/how-safely-use-public-wi-fi</p>
+</blockquote>
+<hr />
+<h2 id="spoofing-phishing-material-fish">Spoofing &amp; Phishing :material-fish:</h2>
+<ul>
+<li><strong>Spoofing</strong> – pretending to be someone else (fake email address, caller ID, website).  </li>
+<li><strong>Phishing</strong> – tricking you into clicking a bad link or giving away information.</li>
+</ul>
+<p><strong>Warning signs:</strong></p>
+<ul>
+<li>Urgent threats (“your account will be deleted”).  </li>
+<li>Spelling mistakes or odd grammar.  </li>
+<li>Weird sender addresses or URLs.</li>
+</ul>
+<blockquote>
+<p><strong>Speaker notes (counselor):</strong> Show a sample fake email vs real one. Ask Scouts to spot the red flags.<br />
+Phishing quiz: https://phishingquiz.withgoogle.com</p>
+</blockquote>
+<hr />
+<h2 id="current-events-material-newspaper-variant">Current Events :material-newspaper-variant:</h2>
+<p>Do <strong>one</strong> (for requirement discussion later):</p>
+<ul>
+<li>Read about a recent <strong>breach</strong> or <strong>malware attack</strong>.  </li>
+<li>Or watch a cyber-themed <strong>movie</strong> or read a <strong>book</strong>.  </li>
+</ul>
+<p>Explain:</p>
+<ul>
+<li>What happened?  </li>
+<li>How did it happen (roughly)?  </li>
+<li>Who was affected?  </li>
+</ul>
+<blockquote>
+<p><strong>Speaker notes (counselor):</strong> Have 1–2 short article examples ready; keep it focused on lessons, not fear.<br />
+Links: https://krebsonsecurity.com • https://www.securityweek.com</p>
+</blockquote>
+<hr />
+<h2 id="your-attack-surface-material-radar">Your Attack Surface :material-radar:</h2>
+<p>Your attack surface includes:</p>
+<ul>
+<li>Email accounts.  </li>
+<li>Social media and gaming accounts.  </li>
+<li>Phones, tablets, laptops.  </li>
+<li>Home Wi-Fi and routers.  </li>
+<li>Cloud storage and backups.  </li>
+<li>Smart/IoT devices.</li>
+</ul>
+<blockquote>
+<p><strong>Speaker notes (counselor):</strong> Ask Scouts to list everything of theirs that connects to the internet. Use that list later for a handout activity.<br />
+Short explainer video keyword: “What is an attack surface?”</p>
+</blockquote>
+<hr />
+<h2 id="5-cyber-defenses-material-shield-check">5. Cyber Defenses :material-shield-check:</h2>
+<p>Technologies that help defend systems:</p>
+<ul>
+<li><strong>Firewalls</strong> – block unwanted traffic.  </li>
+<li><strong>Antivirus / anti-malware</strong> – detect and remove malware.  </li>
+<li><strong>VPN</strong> – encrypts internet traffic.  </li>
+<li><strong>Access controls</strong> – accounts and permissions.  </li>
+<li><strong>IDS/IPS</strong> – monitor and block suspicious activity.</li>
+</ul>
+<blockquote>
+<p><strong>Speaker notes (counselor):</strong> Map each to CIA Triad quickly (e.g., firewall mainly helps availability and confidentiality).<br />
+Link: https://www.cisa.gov/resources-tools/resources/cyber-essentials-toolkit</p>
+</blockquote>
+<hr />
+<h2 id="why-updates-matter-material-update">Why Updates Matter :material-update:</h2>
+<p>Software updates:</p>
+<ul>
+<li>Fix <strong>security vulnerabilities</strong>.  </li>
+<li>Patch <strong>bugs</strong>.  </li>
+<li>Add <strong>new protections</strong>.</li>
+</ul>
+<blockquote>
+<p><strong>Speaker notes (counselor):</strong> Live demo: show how to check for updates on a demo device or screenshots. Emphasize that delaying updates keeps known holes open.<br />
+Links: https://www.cisa.gov/secure-our-world • https://code.org/curriculum</p>
+</blockquote>
+<hr />
+<h2 id="system-security-tasks-material-clipboard-check-outline">System Security Tasks :material-clipboard-check-outline:</h2>
+<p>Examples of tasks Scouts can do (with permission):</p>
+<ul>
+<li>Create or change to a <strong>strong password</strong>.  </li>
+<li>Turn on <strong>multi-factor authentication (MFA)</strong>.  </li>
+<li>Install and configure a <strong>password manager</strong>.  </li>
+<li>Run an <strong>antivirus scan</strong>.  </li>
+<li>View <strong>running processes</strong> or <strong>network connections</strong>.  </li>
+<li><strong>Back up</strong> a phone or computer.  </li>
+<li>Make a <strong>home security checklist</strong> and fix one issue.</li>
+</ul>
+<blockquote>
+<p><strong>Speaker notes (counselor):</strong> Use these as menu items for labs and homework. The handouts in this site support several of these tasks.<br />
+Links: https://www.cisa.gov/secure-our-world/passwords • https://www.khanacademy.org/computing</p>
+</blockquote>
+<hr />
+<h2 id="6-cryptography-material-lock">6. Cryptography :material-lock:</h2>
+<p>Where encryption is used:</p>
+<ul>
+<li><strong>HTTPS</strong> websites.  </li>
+<li><strong>Messaging apps</strong> (end-to-end encrypted).  </li>
+<li><strong>Disk encryption</strong> on devices.</li>
+</ul>
+<p>Why it matters:</p>
+<ul>
+<li>Keeps information private.  </li>
+<li>Protects data if devices are lost.  </li>
+<li>Prevents tampering in transit.</li>
+</ul>
+<blockquote>
+<p><strong>Speaker notes (counselor):</strong> Quick explanation of “scrambling” data, and needing a key to unscramble it.<br />
+Link: https://www.khanacademy.org/computing/computer-science/cryptography</p>
+</blockquote>
+<hr />
+<h2 id="is-this-website-encrypted-material-web-lock">Is This Website Encrypted? :material-web-lock:</h2>
+<p>Check for:</p>
+<ul>
+<li><strong>HTTPS</strong> in the URL.  </li>
+<li>A <strong>lock icon</strong> in the browser.  </li>
+<li>A valid certificate (advanced).</li>
+</ul>
+<blockquote>
+<p><strong>Speaker notes (counselor):</strong> Show a browser; compare http://example.com and https://example.com.<br />
+Link: https://developer.mozilla.org/en-US/docs/Web/Security/HTTPS</p>
+</blockquote>
+<hr />
+<h2 id="cryptography-activity-choices-material-lightbulb-on-outline">Cryptography Activity Choices :material-lightbulb-on-outline:</h2>
+<p>Scouts may do <strong>one</strong> of:</p>
+<ul>
+<li>Create a <strong>substitution cipher</strong> and use it.  </li>
+<li>Use an <strong>end-to-end encrypted</strong> messaging app.  </li>
+<li>Generate a <strong>hash/checksum</strong> for a file and compare after a change.  </li>
+<li>Create a <strong>PGP/GPG key</strong> and send an encrypted email (with help).</li>
+</ul>
+<blockquote>
+<p><strong>Speaker notes (counselor):</strong> Ciphers are easiest in-group; hashing and PGP are good stretch goals for older Scouts. Handout provided.<br />
+Tools: search “online substitution cipher tool”, “SHA256 online hash calculator”.</p>
+</blockquote>
+<hr />
+<h2 id="7-iot-connected-devices-material-router-wireless">7. IoT &amp; Connected Devices :material-router-wireless:</h2>
+<p>Examples of internet-connected devices:</p>
+<ul>
+<li>Smart speakers and displays.  </li>
+<li>Smart TVs and streaming sticks.  </li>
+<li>Fitness trackers and watches.  </li>
+<li>Home security cameras and doorbells.  </li>
+<li>Smart thermostats and lights.</li>
+</ul>
+<p>Risks:</p>
+<ul>
+<li>Privacy (recording audio/video).  </li>
+<li>Weak passwords and outdated firmware.  </li>
+<li>Devices used in <strong>botnets</strong> or attacks.</li>
+</ul>
+<blockquote>
+<p><strong>Speaker notes (counselor):</strong> Ask Scouts what smart devices they have at home. Discuss how to secure them (updates, strong passwords, guest network).<br />
+Link: https://www.ibm.com/topics/internet-of-things</p>
+</blockquote>
+<hr />
+<h2 id="8-activities-competitions-material-gamepad-variant">8. Activities &amp; Competitions :material-gamepad-variant:</h2>
+<p>Examples:</p>
+<ul>
+<li><strong>CyberPatriot</strong> – team-based defense of virtual systems.  </li>
+<li><strong>picoCTF</strong> – beginner-friendly hacking puzzles.  </li>
+<li><strong>AFA CyberCamps</strong>, <strong>National Cyber League</strong>, and others.</li>
+</ul>
+<blockquote>
+<p><strong>Speaker notes (counselor):</strong> Highlight that these can go on college and job applications. Encourage forming a troop team.<br />
+Links: https://www.cyberpatriot.org • https://picoctf.org</p>
+</blockquote>
+<hr />
+<h2 id="9-cybersecurity-careers-material-briefcase-account">9. Cybersecurity Careers :material-briefcase-account:</h2>
+<p>Some roles:</p>
+<ul>
+<li><strong>Security Analyst</strong> (blue team).  </li>
+<li><strong>Penetration Tester / Ethical Hacker</strong> (red team).  </li>
+<li><strong>Incident Responder</strong>.  </li>
+<li><strong>Digital Forensics Specialist</strong>.  </li>
+<li><strong>Security Architect / Engineer</strong>.</li>
+</ul>
+<blockquote>
+<p><strong>Speaker notes (counselor):</strong> Discuss basic education (IT, CS, networking) and common certs (Security+, CEH, etc.). Ask who might be interested.<br />
+Link: https://www.cyberseek.org/pathway.html</p>
+</blockquote>
+<hr />
+<h2 id="closing-material-handshake-outline">Closing :material-handshake-outline:</h2>
+<p>Cybersecurity is about:</p>
+<ul>
+<li>Protecting <strong>people</strong>, not just machines.  </li>
+<li>Making <strong>smart, ethical choices</strong> online.  </li>
+<li>Using <strong>skills</strong> to help your community.</li>
+</ul>
+<p><strong>Questions?</strong></p>
+<blockquote>
+<p><strong>Speaker notes (counselor):</strong> Summarize which requirements were covered and which require follow-up work or homework. Encourage Scouts to keep exploring through competitions and personal projects.</p>
+</blockquote>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      
+      <script id="__config" type="application/json">{"annotate": null, "base": "..", "features": ["navigation.tabs", "content.code.annotate"], "search": "../assets/javascripts/workers/search.7a47a382.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+    
+    
+      <script src="../assets/javascripts/bundle.e71a0d61.min.js"></script>
+      
+    
+  </body>
+</html>
