@@ -1,4 +1,6 @@
 # Cybersecurity Merit Badge
+![Cybersecurity Merit Badge](images/title.png)
+
 :material-shield-lock: :material-account-group:
 
 Scouting America
@@ -7,7 +9,7 @@ Presenter: `__________________`
 Date: `__________________`  
 
 > **Speaker notes (counselor):** Introduce yourself, your background, and how cybersecurity shows up in daily life (phones, games, school). Set expectations for a respectful, interactive session.  
-> Links: https://www.scouting.org • https://www.cisa.gov/cybersecurity
+> Links: [scouting.org](https://www.scouting.org) • [CISA – Cybersecurity](https://www.cisa.gov/cybersecurity)
 
 ---
 
@@ -29,6 +31,8 @@ Date: `__________________`
 
 ## 1. Digital Safety :material-cellphone-lock:
 
+![Digital Safety](images/safety.png)
+
 **Key ideas**
 
 - Your **digital footprint** lasts a long time.  
@@ -36,7 +40,7 @@ Date: `__________________`
 - Physical safety matters when using tech.
 
 > **Speaker notes (counselor):** Ask: “What’s something online you posted and later deleted?” Use it to show that deletion doesn’t always mean it is gone.  
-> Links: https://www.fosi.org • https://www.commonsensemedia.org
+> Links: [FOSI](https://www.fosi.org) • [Common Sense Media](https://www.commonsensemedia.org)
 
 ---
 
@@ -50,7 +54,7 @@ Date: `__________________`
 - Avoid posting: home address, school schedule, daily routine.
 
 > **Speaker notes (counselor):** Quick demo of privacy settings on a test account if possible. Emphasize “share with friends, not with the whole world.”  
-> Link: https://staysafeonline.org
+> Link: [Stay Safe Online](https://staysafeonline.org)
 
 ---
 
@@ -62,11 +66,13 @@ Date: `__________________`
 - Do **not** walk, bike, or drive while looking at screens.
 
 > **Speaker notes (counselor):** Lead a 30-second stretch break. Ask who has felt eye strain or sore neck from gaming or scrolling.  
-> Links: Search “Mayo Clinic computer ergonomics”; https://www.aao.org/eye-health
+> Links: Mayo Clinic ergonomic tips; [American Academy of Ophthalmology – Digital Eye Strain](https://www.aao.org/eye-health)
 
 ---
 
 ## 2. Ethics Online :material-scale-balance:
+
+![Online Ethics](images/ethics.png)
 
 **Scout Law in Cyberspace**
 
@@ -75,7 +81,7 @@ Date: `__________________`
 - **Kind** – No harassment or pile-ons on social media.  
 
 > **Speaker notes (counselor):** Ask Scouts to pick a Scout Law point and give one “online” example. Write a few on a board.  
-> Link: https://www.scouting.org/about/faq/question10
+> Link: [Scout Law](https://www.scouting.org/about/faq/question10)
 
 ---
 
@@ -93,11 +99,13 @@ Date: `__________________`
 - “Just looking around” in systems you’re not authorized to use.
 
 > **Speaker notes (counselor):** Present 2–3 scenarios and have Scouts vote thumbs-up/ thumbs-down on whether it’s ethical.  
-> Link: https://www.comptia.org/blog/ethical-issues-in-cybersecurity
+> Link: [CompTIA – Ethical Issues in Cybersecurity](https://www.comptia.org/blog/ethical-issues-in-cybersecurity)
 
 ---
 
 ## 3. Cyber Fundamentals :material-laptop:
+
+![Cyber Fundamentals](images/fundamentals.png)
 
 ### Systems That Need Protecting
 
@@ -106,11 +114,13 @@ Date: `__________________`
 - **Critical infrastructure** (power, water, hospitals).  
 
 > **Speaker notes (counselor):** Relate to their world: school Chromebooks, game accounts, photo backups, family Wi-Fi router.  
-> Links: https://www.cisa.gov/topics/cyber-threats • https://www.futureoftech.org/cybersecurity
+> Links: [CISA – Cyber Threats](https://www.cisa.gov/topics/cyber-threats) • [Future of Tech – Cybersecurity](https://www.futureoftech.org/cybersecurity)
 
 ---
 
 ## CIA Triad :material-triangle-outline:
+
+![CIA Triad](images/cia_triad.png)
 
 - **Confidentiality** – Only the right people can see the data.  
 - **Integrity** – The data is correct and unaltered.  
@@ -120,11 +130,13 @@ Date: `__________________`
 > - Confidentiality: private messages.  
 > - Integrity: grades not being changed.  
 > - Availability: game servers not going down.  
-> Link: https://www.ibm.com/topics/cia-triad
+> Link: [IBM – What is the CIA triad?](https://www.ibm.com/topics/cia-triad)
 
 ---
 
 ## 4. Threats, Vulnerabilities, Attacks :material-alert-octagon:
+
+![Threats and Attacks](images/threats.png)
 
 **Key terms**
 
@@ -135,7 +147,7 @@ Date: `__________________`
 Example: Outdated browser (vulnerability) + malicious site (threat) + exploit code = stolen password.
 
 > **Speaker notes (counselor):** Ask them to describe a real-world analogy (e.g., broken lock, burglar, crowbar).  
-> Link: https://www.khanacademy.org/computing/computer-science
+> Link: [Khan Academy – Internet, Security](https://www.khanacademy.org/computing/computer-science/internet-intro)
 
 ---
 
@@ -149,7 +161,7 @@ Examples:
 - **Ransomware** – locks files until a ransom is paid.
 
 > **Speaker notes (counselor):** Pick **one** type of malware and explain briefly. Optional: show a news article about a recent ransomware case.  
-> Link: https://www.cisa.gov/stopransomware
+> Link: [CISA – Stop Ransomware](https://www.cisa.gov/stopransomware)
 
 ---
 
@@ -168,7 +180,7 @@ Reduce risk:
 - Avoid logging into sensitive accounts.
 
 > **Speaker notes (counselor):** Ask: “Who has used free Wi-Fi at a café or airport?” Explain a simple attack scenario.  
-> Link: https://consumer.ftc.gov/articles/how-safely-use-public-wi-fi
+> Link: [FTC – How to Safely Use Public Wi-Fi](https://consumer.ftc.gov/articles/how-safely-use-public-wi-fi)
 
 ---
 
@@ -184,7 +196,7 @@ Reduce risk:
 - Weird sender addresses or URLs.
 
 > **Speaker notes (counselor):** Show a sample fake email vs real one. Ask Scouts to spot the red flags.  
-> Phishing quiz: https://phishingquiz.withgoogle.com
+> Phishing quiz: [Google Phishing Quiz](https://phishingquiz.withgoogle.com)
 
 ---
 
@@ -202,7 +214,7 @@ Explain:
 - Who was affected?  
 
 > **Speaker notes (counselor):** Have 1–2 short article examples ready; keep it focused on lessons, not fear.  
-> Links: https://krebsonsecurity.com • https://www.securityweek.com
+> Links: [Krebs on Security](https://krebsonsecurity.com) • [SecurityWeek](https://www.securityweek.com)
 
 ---
 
@@ -218,11 +230,13 @@ Your attack surface includes:
 - Smart/IoT devices.
 
 > **Speaker notes (counselor):** Ask Scouts to list everything of theirs that connects to the internet. Use that list later for a handout activity.  
-> Short explainer video keyword: “What is an attack surface?”
+> Suggested video search: “What is an attack surface?”
 
 ---
 
 ## 5. Cyber Defenses :material-shield-check:
+
+![Cyber Defenses](images/defenses.png)
 
 Technologies that help defend systems:
 
@@ -232,8 +246,8 @@ Technologies that help defend systems:
 - **Access controls** – accounts and permissions.  
 - **IDS/IPS** – monitor and block suspicious activity.
 
-> **Speaker notes (counselor):** Map each to CIA Triad quickly (e.g., firewall mainly helps availability and confidentiality).  
-> Link: https://www.cisa.gov/resources-tools/resources/cyber-essentials-toolkit
+> **Speaker notes (counselor):** Map each to the CIA Triad quickly (e.g., firewall mainly helps availability and confidentiality).  
+> Link: [CISA – Cyber Essentials](https://www.cisa.gov/resources-tools/resources/cyber-essentials-toolkits)
 
 ---
 
@@ -246,7 +260,7 @@ Software updates:
 - Add **new protections**.
 
 > **Speaker notes (counselor):** Live demo: show how to check for updates on a demo device or screenshots. Emphasize that delaying updates keeps known holes open.  
-> Links: https://www.cisa.gov/secure-our-world • https://code.org/curriculum
+> Links: [CISA – Secure Our World](https://www.cisa.gov/secure-our-world) • [Code.org – How Not to Get Hacked](https://code.org/curriculum)
 
 ---
 
@@ -263,11 +277,13 @@ Examples of tasks Scouts can do (with permission):
 - Make a **home security checklist** and fix one issue.
 
 > **Speaker notes (counselor):** Use these as menu items for labs and homework. The handouts in this site support several of these tasks.  
-> Links: https://www.cisa.gov/secure-our-world/passwords • https://www.khanacademy.org/computing
+> Links: [CISA – Password Tips](https://www.cisa.gov/sites/default/files/publications/CISA_Fact_Sheet-Top_Tips_for_Smartphone_Security_508C.pdf) • [Khan Academy – Computer Security](https://www.khanacademy.org/computing)
 
 ---
 
 ## 6. Cryptography :material-lock:
+
+![Cryptography](images/crypto.png)
 
 Where encryption is used:
 
@@ -282,7 +298,7 @@ Why it matters:
 - Prevents tampering in transit.
 
 > **Speaker notes (counselor):** Quick explanation of “scrambling” data, and needing a key to unscramble it.  
-> Link: https://www.khanacademy.org/computing/computer-science/cryptography
+> Link: [Khan Academy – Cryptography](https://www.khanacademy.org/computing/computer-science/cryptography)
 
 ---
 
@@ -295,7 +311,7 @@ Check for:
 - A valid certificate (advanced).
 
 > **Speaker notes (counselor):** Show a browser; compare http://example.com and https://example.com.  
-> Link: https://developer.mozilla.org/en-US/docs/Web/Security/HTTPS
+> Link: [MDN – HTTPS](https://developer.mozilla.org/en-US/docs/Web/Security/HTTPS)
 
 ---
 
@@ -315,6 +331,8 @@ Scouts may do **one** of:
 
 ## 7. IoT & Connected Devices :material-router-wireless:
 
+![IoT and Connected Devices](images/iot.png)
+
 Examples of internet-connected devices:
 
 - Smart speakers and displays.  
@@ -330,11 +348,13 @@ Risks:
 - Devices used in **botnets** or attacks.
 
 > **Speaker notes (counselor):** Ask Scouts what smart devices they have at home. Discuss how to secure them (updates, strong passwords, guest network).  
-> Link: https://www.ibm.com/topics/internet-of-things
+> Link: [IBM – What is IoT?](https://www.ibm.com/topics/internet-of-things)
 
 ---
 
 ## 8. Activities & Competitions :material-gamepad-variant:
+
+![Activities and Competitions](images/activities.png)
 
 Examples:
 
@@ -343,11 +363,13 @@ Examples:
 - **AFA CyberCamps**, **National Cyber League**, and others.
 
 > **Speaker notes (counselor):** Highlight that these can go on college and job applications. Encourage forming a troop team.  
-> Links: https://www.cyberpatriot.org • https://picoctf.org
+> Links: [CyberPatriot](https://www.cyberpatriot.org) • [picoCTF](https://picoctf.org)
 
 ---
 
 ## 9. Cybersecurity Careers :material-briefcase-account:
+
+![Cybersecurity Careers](images/careers.png)
 
 Some roles:
 
@@ -358,7 +380,7 @@ Some roles:
 - **Security Architect / Engineer**.
 
 > **Speaker notes (counselor):** Discuss basic education (IT, CS, networking) and common certs (Security+, CEH, etc.). Ask who might be interested.  
-> Link: https://www.cyberseek.org/pathway.html
+> Link: [CyberSeek – Career Pathway](https://www.cyberseek.org/pathway.html)
 
 ---
 
