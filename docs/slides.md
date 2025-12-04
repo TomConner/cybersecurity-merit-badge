@@ -302,7 +302,7 @@ Why it matters:
 
 ---
 
-## Is This Website Encrypted? :material-web-lock:
+## Is This Website Encrypted? :material-lock:
 
 Check for:
 
